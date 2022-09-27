@@ -38,6 +38,7 @@ body {
   z-index: 0;
   transition: 2.5s;
   margin-left: 10px;
+  border-radius: 100%;
 }
 
 .circle {
@@ -50,7 +51,11 @@ body {
 }
 
 .cir:hover {
-  right: 85px;
+  right: 90px;
+  box-shadow: 10px 23px 15px rgb(48 45 45 / 86.4%);
+}
+
+.cir:hover > .circle {
   transform: rotate(70deg);
 }
 
